@@ -63,3 +63,8 @@ article {
 .big {
   font-size: 1.4rem;
 }
+
+.figure-caption {
+  color: white;
+  margin-bottom: 1rem;
+}
