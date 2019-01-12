@@ -68,3 +68,12 @@ article {
   color: white;
   margin-bottom: 1rem;
 }
+
+.skills {
+  font-weight: 800;
+  color: #e0aa60;
+}
+
+.img-thumbnail {
+  margin: 0.2rem;
+}
