@@ -1,10 +1,11 @@
 h3 {
   font-size: 2.5rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .navbar-brand {
-  font-size: 1.8rem;
-  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  font-family: "Staatliches", cursive;
 }
 
 a.navbar-brand::before {
@@ -13,10 +14,11 @@ a.navbar-brand::before {
 
 p {
   line-height: 1.55;
+  font-family: "Open Sans", sans-serif;
 }
 
 .nav {
-  margin-bottom: 0.5rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .widthDiv.container {
