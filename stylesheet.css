@@ -39,10 +39,17 @@ ul#skillList {
 .navbar-brand {
   font-size: 2rem;
   font-family: "Staatliches", cursive;
+  margin-bottom: -0.5rem;
+  margin-top: -0.5rem;
 }
 
 .nav {
   font-family: "Open Sans", sans-serif;
+}
+
+nav li {
+  margin-top: 0.5rem;
+  margin-bottom: -0.4rem;
 }
 
 .widthDiv.container {
