@@ -22,10 +22,11 @@ li {
 
 main {
   background: #343a40;
+  padding-top: 1rem;
 }
 
 p {
-  line-height: 1.55;
+  line-height: 1.65;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -69,6 +70,7 @@ nav li {
 .red {
   color: red;
   font-size: 1.1rem;
+  font-weight: 500;
 }
 
 .btn {
