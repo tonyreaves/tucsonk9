@@ -1,20 +1,44 @@
+article {
+  color: white;
+}
+
 h2 {
   font-size: 2.5rem;
   font-family: "Open Sans", sans-serif;
+  margin-bottom: 0.7rem;
 }
 
-.navbar-brand {
-  font-size: 2rem;
-  font-family: "Staatliches", cursive;
+h3 {
+  font-weight: 800;
+  color: #e0aa60;
+  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
 }
 
-a.navbar-brand::before {
-  box-sizing: content-box;
+li {
+  padding-bottom: 0.9rem;
+}
+
+main {
+  background: #343a40;
 }
 
 p {
   line-height: 1.55;
   font-family: "Open Sans", sans-serif;
+}
+
+ul#skillList li {
+  list-style-type: none;
+}
+
+ul#skillList {
+  padding-left: 0;
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Staatliches", cursive;
 }
 
 .nav {
@@ -28,30 +52,6 @@ p {
 
 .jumbotron {
   background-image: url(assets/bg1.jpg);
-}
-
-#logo {
-  font-size: 4.8rem;
-  color: white;
-  font-family: "Staatliches", cursive;
-  text-align: right;
-  text-shadow: 0.04rem 0.04rem black;
-}
-
-#subLogo {
-  color: white;
-  font-size: 2rem;
-  font-family: "Staatliches", cursive;
-  text-align: right;
-  text-shadow: 0.04rem 0.04rem black;
-}
-
-main {
-  background: #343a40;
-}
-
-article {
-  color: white;
 }
 
 .red {
@@ -71,12 +71,7 @@ article {
 .figure-caption {
   color: white;
   margin-bottom: 1rem;
-}
-
-h3 {
-  font-weight: 800;
-  color: #e0aa60;
-  font-size: 1.1rem;
+  font-family: "Open Sans", sans-serif;
 }
 
 .img-thumbnail {
@@ -101,6 +96,7 @@ h3 {
   padding-top: 25px;
   height: 0;
 }
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -109,18 +105,22 @@ h3 {
   height: 100%;
 }
 
-ul#skillList li {
-  list-style-type: none;
-}
-
-ul#skillList {
-  padding-left: 0;
-}
-
-li {
-  padding-bottom: 0.9rem;
-}
-
 .link {
   color: #e0aa60;
+}
+
+#logo {
+  font-size: 4.8rem;
+  color: white;
+  font-family: "Staatliches", cursive;
+  text-align: right;
+  text-shadow: 0.1rem 0.1rem black;
+}
+
+#subLogo {
+  color: white;
+  font-size: 2.1rem;
+  font-family: "Staatliches", cursive;
+  text-align: right;
+  text-shadow: 0.08rem 0.08rem black;
 }
