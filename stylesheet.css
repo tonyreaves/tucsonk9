@@ -129,17 +129,18 @@ nav li {
 }
 
 #logo {
-  font-size: 4.2rem;
+  font-size: 3.5rem;
   color: white;
   font-family: "Stardos Stencil", cursive;
   text-align: right;
   text-shadow: 0.1rem 0.1rem black;
   font-weight: 800;
+  line-height: 1.8rem;
 }
 
 #subLogo {
   color: white;
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-family: "Open Sans", sans-serif;
   text-align: right;
   text-shadow: 0.08rem 0.08rem black;
