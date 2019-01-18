@@ -61,11 +61,12 @@ nav li {
 
 .widthDiv.container {
   margin: 0 auto;
-  max-width: 830px;
+  max-width: 900px;
 }
 
 .jumbotron {
   background-image: url(assets/bg1.jpg);
+  background-size: 100%;
 }
 
 .red {
