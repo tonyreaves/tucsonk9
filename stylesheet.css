@@ -16,6 +16,10 @@ h3 {
   font-family: "Open Sans", sans-serif;
 }
 
+h5 {
+  font-family: "Open Sans", sans-serif;
+}
+
 li {
   padding-bottom: 0.9rem;
 }
@@ -146,4 +150,24 @@ nav li {
   text-align: right;
   text-shadow: 0.08rem 0.08rem black;
   font-weight: 700;
+}
+
+#topnav {
+  padding: 0 1rem 0 1rem;
+}
+
+.fa-facebook {
+  font-size: 1.9rem;
+  color: #3b5998;
+  background: white;
+  padding: 0.2rem;
+  margin-left: 0.2rem;
+}
+
+.fa-youtube {
+  font-size: 2rem;
+  color: #ff0000;
+  background: white;
+  padding: 0.2rem;
+  margin-left: 0.2rem;
 }
