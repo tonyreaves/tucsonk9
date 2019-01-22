@@ -160,14 +160,14 @@ nav li {
   font-size: 1.9rem;
   color: #3b5998;
   background: white;
-  padding: 0.2rem;
-  margin-left: 0.2rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 0.1rem;
 }
 
 .fa-youtube {
   font-size: 2rem;
   color: #ff0000;
   background: white;
-  padding: 0.2rem;
-  margin-left: 0.2rem;
+  padding-left: 0.5rem;
 }
