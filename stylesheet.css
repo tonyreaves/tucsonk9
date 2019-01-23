@@ -29,6 +29,11 @@ main {
   padding-top: 1rem;
 }
 
+nav li {
+  margin-top: 0.5rem;
+  margin-bottom: -0.4rem;
+}
+
 p {
   line-height: 1.65;
   font-family: "Open Sans", sans-serif;
@@ -40,6 +45,59 @@ ul#skillList li {
 
 ul#skillList {
   padding-left: 0;
+}
+
+.active {
+  font-weight: 700;
+}
+
+.big {
+  font-size: 1.4rem;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.btn {
+  margin: 1.5rem 0 1rem 0;
+  min-width: fit-content;
+}
+
+.fa-facebook {
+  font-size: 1.9rem;
+  color: #3b5998;
+  background: white;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  margin-top: 0.4rem;
+}
+
+.fa-youtube {
+  font-size: 2rem;
+  color: #ff0000;
+  background: white;
+  padding-left: 0.5rem;
+  margin-top: 0.3rem;
+}
+
+.figure-caption {
+  color: white;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", sans-serif;
+}
+
+.img-thumbnail {
+  margin: 0.3rem;
+}
+
+.jumbotron {
+  background-image: url(assets/tk9.jpg);
+  background-size: 100%;
+}
+
+.link {
+  color: #e0aa60;
 }
 
 .navbar-brand {
@@ -54,52 +112,10 @@ ul#skillList {
   font-family: "Open Sans", sans-serif;
 }
 
-nav li {
-  margin-top: 0.5rem;
-  margin-bottom: -0.4rem;
-}
-
-.active {
-  font-weight: 700;
-}
-
-.widthDiv.container {
-  margin: 0 auto;
-  max-width: 960px;
-}
-
-.jumbotron {
-  background-image: url(assets/tk9.jpg);
-  background-size: 100%;
-}
-
 .red {
   color: red;
   font-size: 1.1rem;
   font-weight: 500;
-}
-
-.btn {
-  margin: 1.5rem 0 1rem 0;
-  min-width: fit-content;
-}
-
-.big {
-  font-size: 1.4rem;
-}
-
-.figure-caption {
-  color: white;
-  margin-bottom: 1rem;
-  font-family: "Open Sans", sans-serif;
-}
-
-.img-thumbnail {
-  margin: 0.3rem;
-}
-
-.bold {
-  font-weight: 700;
 }
 
 .square {
@@ -125,8 +141,9 @@ nav li {
   height: 100%;
 }
 
-.link {
-  color: #e0aa60;
+.widthDiv.container {
+  margin: 0 auto;
+  max-width: 960px;
 }
 
 .white {
@@ -154,20 +171,4 @@ nav li {
 
 #topnav {
   padding: 0 1rem 0 1rem;
-}
-
-.fa-facebook {
-  font-size: 1.9rem;
-  color: #3b5998;
-  background: white;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  margin-top: 0.1rem;
-}
-
-.fa-youtube {
-  font-size: 2rem;
-  color: #ff0000;
-  background: white;
-  padding-left: 0.5rem;
 }
